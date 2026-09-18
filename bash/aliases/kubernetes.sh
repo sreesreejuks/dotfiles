@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Kubernetes — add more files next to this one as the toolkit grows.
 
 alias k='kubectl'
