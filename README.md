@@ -21,7 +21,7 @@ If a real `~/.bash_aliases` already exists, install moves it to `~/.bash_aliases
 | Path | Role |
 | --- | --- |
 | `.bash_aliases` | Loader; sourced from `$HOME` via symlink |
-| `bash/aliases/*.sh` | One file per topic (start: Kubernetes) |
+| `bash/aliases/*.sh` | One file per topic, including shared functions |
 | `install.sh` | Creates the symlink and ensures `.bashrc` sources it |
 
 Add more topics as new files under `bash/aliases/` (for example `git.sh`). They are picked up automatically.
