@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Sourced from ~/.bash_aliases (usually a symlink into this repo).
 # Resolves the real repo path so extra alias files can live beside this one.
 
