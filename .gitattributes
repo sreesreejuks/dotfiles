@@ -1,0 +1,2 @@
+*.sh text eol=lf
+.bash_aliases text eol=lf
