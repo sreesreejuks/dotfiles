@@ -12,6 +12,8 @@ chmod +x install.sh
 source ~/.bash_aliases
 ```
 
+The installer installs missing `fzf`, `rsync`, `xsel`, and `nano` packages on systems with `apt-get`, `dnf`, or `yum`. Install `kubectl` separately if you want to use the Kubernetes aliases.
+
 On a machine that already has the clone: `git pull` and open a new shell. Alias files are sourced from the repo through the symlink, so there is nothing else to reinstall.
 
 If a real `~/.bash_aliases` already exists, install moves it to `~/.bash_aliases.bak.<timestamp>` before linking.
