@@ -25,6 +25,7 @@ alias ts="date '+%Y-%m-%d-%H-%M-%S'"  # Generate timestamp
 alias nano="nano -c"                   # Enable line numbers in nano
 alias grep="grep --color=auto"         # Highlight grep matches
 alias fz="fzf"                         # Quick search in files
+alias genpass='openssl rand -base64 24' # Generate a random password
 
 #-------------------------------------------------------------------------------
 # Safety Nets

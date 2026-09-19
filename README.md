@@ -52,6 +52,7 @@ Shell files use Unix LF line endings. The repository enforces this through `.git
 | `pbcopy` / `pbpaste` | Copy to and paste from the clipboard |
 | `ts` | Generate a timestamp |
 | `fz` | Search files with `fzf` |
+| `genpass` | Generate a random password |
 | `h` | List shell history with numbers |
 
 ## Navigation aliases
